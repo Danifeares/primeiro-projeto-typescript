@@ -1,5 +1,8 @@
-const saudacao = (nome: string) => {
-  console.log(`Olá ${nome}`)
+const saudacao = (nome: string): string => {
+  return `Olá ${nome}`
 }
 
-saudacao('Daniela')
+console.log(saudacao('Daniela'))
+
+const nome: string = 'Daniela'
+const idade: number = 24
